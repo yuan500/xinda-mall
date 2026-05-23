@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   Sample backup rules file. The default includes system apps, but excludes
+   device-specific IMEI. Uncomment sections as needed.
+
+   This file is parsed on SDK 31+ devices. On earlier SDK versions, OnBackupAgent will be called for backup/restore/init.
+  -->
+
+    <!--
+   <include domain="sharedpref" path="." />
+   <exclude domain="sharedpref" path="device.xml" />
+  -->
+
+</full-backup-content>

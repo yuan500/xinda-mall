@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!--
+    Sample data extraction rules file (see "Allow access to app data" guide for more details).
+    By default the extraction rules in this file (when present) supersede the platform default for all apps.
+
+    See https://developer.android.com/about/versions/12/backup-restore#xml-changes for details.
+    -->
+    <domain-config>
+        <domain name="shared_pref" />
+        <!--
+           <exclude>
+               <path-filter glob="pref_filter_*.xml" />
+           </exclude>
+        -->
+    </domain-config>
+    <!--
+    <domain-config>
+        <domain name="file">
+            <exclude-path "cache" />
+        </domain>
+    </domain-config>
+    -->
+</data-extraction-rules>

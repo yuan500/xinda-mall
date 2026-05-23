@@ -63,10 +63,6 @@
 - `INTERNET` - 访问网络
 - `ACCESS_NETWORK_STATE` - 检查网络状态
 
-## 应用截图
-
-加载网页后，应用将显示 lianxinda.sbs 的内容。
-
 ## 故障排除
 
 ### 网页加载失败
